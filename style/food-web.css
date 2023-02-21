@@ -18,7 +18,7 @@ body {
   width: 60%;
   padding-top: 2%;
 }
-span {
+.word-color {
   color: #eb8022;
 }
 .order-left-section h1 {
@@ -120,8 +120,34 @@ span {
   font-size: 26px;
   font-weight: 700;
 }
-.recipies-item p {
+.recipies-item-p {
   font-size: 18px;
   font-weight: 400;
   color: rgb(97, 97, 97);
+}
+
+.count-sec {
+  display: flex;
+}
+.count-sec-a {
+  margin-left: 16%;
+  margin-bottom: 10%;
+}
+.count-sec-a h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+footer h1 {
+  color: rgb(61, 91, 92);
+}
+footer p {
+  color: rgb(141, 154, 169);
 }
