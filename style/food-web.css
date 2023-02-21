@@ -71,11 +71,11 @@ span {
   padding-top: 20px;
   padding-right: 150px;
 }
-.about-left h2 {
+.about-left-h {
   color: rgb(97, 97, 97);
   font-size: 40px;
   font-weight: 700;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .banner-2 {
   background-image: url(../images/background/7.png);
@@ -83,4 +83,45 @@ span {
   background-position: right center;
   height: 600px;
   margin-top: 70px;
+}
+
+.recipies-sec-F {
+  align-items: center;
+  text-align: center;
+  margin: 10% 27% 10% 27%;
+}
+.recipies-sec-F p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+  margin-bottom: -80px;
+}
+.recipies-sec-S {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.recipies-item {
+  width: 55%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 150px;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  box-shadow: 10px 10px 50px silver;
+  border-radius: 15px;
+}
+.recipies-item img {
+  height: 350px;
+  width: 470px;
+}
+.recipies-item h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.recipies-item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
 }
